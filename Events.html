@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Events</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<style>
+	div.col-md-2
+	{
+	 background-color:black;
+	 color:white;
+	 }
+	 a.one
+	 {
+	  color:white;
+	  }
+	  button.one
+	  {
+	   background-color:green;
+	   color:white;
+	   }
+	    button.two
+	  {
+	   background-color:blue;
+	   color:white;
+	   }
+	    button.three
+	  {
+	   background-color:yellow;
+	   color:white;
+	   }
+	   li.one
+	  {
+	   list-style-type:none;
+	   }
+	</style>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="row">
+  <div class="col-md-2">
+  <img src="https://jlc.checkyourdemo.co.in/public/images/logo.png" style="width:20%">
+  </br></br>
+  <i>Menu</i>
+  </br></br>
+  <ul>
+  <li class="one"><a class="one" href="Dashboard.html"><i class="fa-solid fa-house"></i>Dashboards</a></li>
+    
+  <li class="one"><a class="one" href="Team list.html"><i class="fa-solid fa-calendar-days"></i>Team list</a></li>
+  
+  <li class="one"><a class="one" href="Registered user list.html"><i class="fa-solid fa-file"></i>Registered user list</a></li>
+  
+  <li class="one"><a class="one" href="Events.html"><i class="fa-thin fa-calendar-minus"></i>Events</a></li>
+  
+  <li class="one"><a class="one" href="Notification.html"><i class="fa-duotone fa-regular fa-table-cells"></i>Notification</a></li>
+    
+  <li class="one"><a class="one" href="View player list.html"><i class="fa-solid fa-lock"></i>View player list</a></li>
+   
+  <li class="one"><a class="one" href="Schedule.html"><i class="fa-duotone fa-thin fa-rectangle-wide"></i>Schedule</a></li>
+  
+  <li class="one"><a class="one" href="Log out.html"><i class="fa-sharp fa-regular fa-arrow-right-from-bracket"></i>Log out</a></li>
+  </ul>
+  </br></br></br> </br></br></br> </br></br></br> </br></br></br>
+    </br></br></br> </br></br></br> </br></br></br> </br></br></br>
+  </div>
+  <div class="col-md-10">
+ <h3>Add Events</h3>
+ <form>
+ <div class="row">
+  <div class="col-md-6">
+  <i>Name</i></br>
+  <input type="text" placeholder="">
+  </br></br>
+  <i>Time</i></br>
+  <input type="time" placeholder="">
+  </br></br>
+  <i>Event Description</i></br>
+  <input type="text" placeholder="">
+  </br></br>
+  <button class="one">Add Events</button>
+  
+  </div>
+  <div class="col-md-6">
+  <i>Date</i></br>
+  <input type="date" placeholder="">
+  </br></br>
+  <i>Location</i></br>
+  <input type="text" placeholder="">
+  </div>
+</div>
+ </form>
+ </br></br></br>
+ <table class="table table-condensed">
+  <tr>
+  <th>Event Name</th>
+  <th>Date</th>
+  <th>Time</th>
+  <th>Location</th>
+  <th>Event Description</th>
+  <th></th>
+  </tr>
+  <tr>
+  <td>test</td>
+  <td>2025-01-16</td>
+  <td>10:38	</td>
+  <td>testing</td>
+  <td>Welcome to your one-stop shop for all things medicine! Whether you're a seasoned healthcare professional or simply someone curious about the inner workings of the human body, this blog aims to inform, engage, and spark your fascination with the ever-evolving medical field. In this ever-changing landscape, staying up-to-date can feel overwhelming. But fear not! We'll break down complex topics into digestible pieces, discuss cutting-edge research, and explore the fascinating history of medicine. Here are some teasers of what you can expect: Deep Dives into Diseases: We'll delve into the science behind common and not-so-common ailments, exploring causes, symptoms, and current treatment options. Navigating the Latest Breakthroughs: From gene editing to personalized medicine, we'll unpack groundbreaking advancements and their potential impact on healthcare. Myth Busters and Health Hacks: We'll sort fact from fiction regarding popular health claims and share evidence-based tips for maintaining your well-being. P</td>
+  <td>
+  <button class="two">Edit</button>
+  </br>
+   <button class="three">Delete</button>
+  </td>
+  </tr>
+  <tr>
+   <td>t-20</td>
+  <td>2025-02-06</td>
+  <td>12:20	</td>
+  <td>udupi</td>
+  <td>t-20 demo events</td>
+  <td>
+  <button class="two">Edit</button>
+  </br>
+   <button class="three">Delete</button>
+  </td>
+  </tr>
+</table>
+  
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>
